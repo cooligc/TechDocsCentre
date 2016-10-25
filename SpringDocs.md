@@ -1,5 +1,7 @@
 Spring 4
 ========
+[![N|Solid](https://assets.toptal.io/uploads/blog/category/logo/59/spring.png)](Spring)
+
 - **@Configuration** -> This declares it as a Spring configuration class
 - **@EnableWebMvc** -> This enables Spring's ability to receive and process web requests. Necessary for interceptors too.
 - **@EnableTransactionManagement** ->  Reverting incomplete database modifications using transactions
