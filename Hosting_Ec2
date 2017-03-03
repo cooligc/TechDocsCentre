@@ -1,0 +1,12 @@
+# Steps to host in EC2 with a public domain
+
+
+- Create an elastic IP in EC2 Console
+- Associate the same private IP to the appropirate EC2 instance
+- Go to Route 53
+- Create the hosted name 
+- Get into the hosted zone
+- Create Record Set 
+  	Name : www.example.com
+  	Alias Value : Elastic IP
+- Then click on create 
